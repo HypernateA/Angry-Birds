@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    float: right;
+    padding: 16px 20px;
+}
+.logo{
+    float: left;
+    padding: 16px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li button{
+    font-size: 20px;
+}
+ul li button i.fa-facebook{
+color: blue;
+}
+ul li button i.fa-twitter{
+color: lightskyblue;
+}
+ul li button i.fa-youtube{
+color:red;
+}
+.part1{
+    max-width: 100%;
+    height: 120vh;
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part2{
+    max-width: 100%;
+    height: 100vh;
+    background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part3{
+    max-width: 100%;
+    height: 100vh;
+    background: url(https://footballfoodandmotherhood.com/wp-content/uploads/2018/01/Angry-Birds-2-Key-Art-NFL.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part2 div img{
+    width: 596px;
+    height: 612px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+footer{
+    text-align: center;
+}
+footer button{
+    font-size: 20px;
+    padding: 16px 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+footer button i.fa-facebook{
+    color: blue;
+}
+footer button i.fa-twitter{
+    color: lightskyblue;
+}
+footer button i.fa-youtube{
+    color: red;
+}
+.about{
+    text-align: center;
+    padding: 150px;
+    font-size: 20px;
+}
+ul li button img, footer button img{
+    width: 20px;
+    height: 20px;
+}
+
+
